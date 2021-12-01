@@ -1,0 +1,52 @@
+.containerEntrar{  
+  background-image: url("../../../../assets/img/unnamed.jpg") ; 
+  background-size: cover;
+  max-width: 1200px;
+  width: 1200px;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  flex-direction: column;
+    h1{
+      font-weight: 700;
+      font-size: 1.8em;
+      margin-right: 30px;
+      color: #fff;
+      margin-top: 5px;
+    }
+}
+.login{
+  margin-left: -10px;
+  background-color:var(--cor-primaria);
+  width:345px;
+  margin-left: 0px;
+  border-radius:   20px 20px 0 0;
+  align-items: center;
+  justify-content:center;
+  padding:10px;
+  margin-top: 50px; 
+}
+.iconCustonLogin{
+  font-size: 1.8em;
+  color: #fff;
+
+}
+form{
+  background-color: #fff;
+  padding:20px;
+  border-radius:  0 0 20px 20px;
+  width:345px;
+  button{
+    background-color: var(--cor-primaria);
+    border-radius: 20px;
+  width:305px;
+  }
+}
+.buttonNovaConta{
+  background-color: var(--cor-primaria);
+  border-radius: 20px;
+  width:205px;
+  margin-top: 50px;
+}
