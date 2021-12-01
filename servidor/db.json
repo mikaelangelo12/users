@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id":1,
+      "name": "Ananias",
+      "surname": "Carvalheiro Neto",
+      "cpf": "728.631.182-42",
+      "email": "ananias.neto@geradornv.com.br",
+      "password":"%j!kRnl5&mKY"
+    },
+    {
+      "id":2,
+      "name": "Adilson",
+      "surname": "Cretella Carino",
+      "cpf": "872.339.560-57",
+      "email": "adilson.carino@geradornv.com.br",
+      "password": "&QlH=&vOSx7a"
+    }
+  ]
+}
