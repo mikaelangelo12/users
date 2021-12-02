@@ -1,0 +1,19 @@
+.containerRecuperar{  
+  background-image: url("../../../../assets/img/unnamed.jpg") ; 
+  background-size: cover;
+  max-width: 1200px;
+  width: 1200px;
+  height: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  flex-direction: column;
+  h1{
+    font-weight: 700;
+    font-size: 1.8em;  
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}

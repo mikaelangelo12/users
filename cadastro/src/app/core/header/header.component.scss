@@ -1,0 +1,23 @@
+header{
+  
+    background-color: var(--cor-primaria);
+    height: 60px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px  20px 0 0;
+    grid-area: nav;
+  h1{    
+    font-weight: 700; 
+    font-size: 1.8em;
+    color: #fff;
+  }
+
+  float: inline-end;
+  position: fixe;
+}
+.custonIconHeader{
+  color: var(--cor-segundaria);
+  font-size: 2em;
+  margin-right: 5px;
+}

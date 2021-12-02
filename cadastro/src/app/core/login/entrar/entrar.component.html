@@ -1,0 +1,23 @@
+<div class="containerEntrar p-shadow-6">
+  <div class="login d-flex">
+    <span class="material-icons iconCustonLogin">person</span>
+    <h1>Login</h1>
+  </div>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@exemplo.com" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Senha:</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite Sua Senha">
+    </div>
+    <div class="mb-3 form-check ">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+    <a class="float-xl-end" routerLink="/recuperar">Esqueceu a senha?</a>
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+  </form>
+  <a routerLink="/criar-conta"><button type="button" class="btn btn-primary buttonNovaConta">Criar nova conta</button></a>
+</div>

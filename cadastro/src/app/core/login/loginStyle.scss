@@ -1,0 +1,34 @@
+
+.login{
+  margin-left: -10px;
+  background-color:var(--cor-primaria);
+  width:345px;
+  margin-left: 0px;
+  border-radius:   20px 20px 0 0;
+  align-items: center;
+  justify-content:center;
+  padding:10px;
+  margin-top: 20px; 
+}
+.iconCustonLogin{
+  font-size: 1.8em;
+  color: var(--cor-segundaria)
+
+}
+form{
+  background-color: #fff;
+  padding:20px;
+  border-radius:  0 0 20px 20px;
+  width:345px;
+  button{
+    background-color: var(--cor-primaria);
+    border-radius: 20px;
+  width:305px;
+  }
+}
+.buttonNovaConta{
+  background-color: var(--cor-primaria);
+  border-radius: 20px;
+  width:205px;
+  margin-top: 20px;
+}
