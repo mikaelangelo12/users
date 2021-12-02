@@ -1,4 +1,4 @@
-<div class="containerEntrar">
+<div class="containerEntrar p-shadow-6">
   <div class="login d-flex">
     <span class="material-icons iconCustonLogin">person</span>
     <h1>Login</h1>
@@ -15,9 +15,9 @@
     <div class="mb-3 form-check ">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
-    <a class="float-xl-end" href="#">Esqueceu a senha?</a>
+    <a class="float-xl-end" routerLink="/recuperar">Esqueceu a senha?</a>
     </div>
     <button type="submit" class="btn btn-primary">Entrar</button>
   </form>
-  <button type="button" class="btn btn-primary buttonNovaConta">Criar nova conta</button>
+  <a routerLink="/criar-conta"><button type="button" class="btn btn-primary buttonNovaConta">Criar nova conta</button></a>
 </div>

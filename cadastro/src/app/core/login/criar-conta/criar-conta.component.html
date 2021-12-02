@@ -1,1 +1,22 @@
-<p>criar-conta works!</p>
+<div class="containerCriarConta">
+  <div class="login d-flex">
+    <span class="material-icons iconCustonLogin">person</span>
+    <h1>Criar Conta</h1>
+  </div>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Nome:</label>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>    
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="exemplo@exemplo.com" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Senha:</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite Sua Senha">
+    </div>   
+    <button type="submit" class="btn btn-primary">Criar Conta</button>
+  </form>
+  <a routerLink="/entrar"><button type="button" class="btn btn-primary buttonNovaConta">Fazer Login</button></a>
+</div>

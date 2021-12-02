@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {PanelMenuModule} from 'primeng/panelmenu';
 import {MenuItem} from 'primeng/api';
-
-
 
 @Component({
   selector: 'app-menu',
@@ -10,7 +7,9 @@ import {MenuItem} from 'primeng/api';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
+
   items: MenuItem[] | any;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -28,7 +27,7 @@ export class MenuComponent implements OnInit {
               },
               {label: 'Open', icon: 'pi pi-fw pi-external-link'},
               {separator: true},
-              {label: 'Quit', icon: 'pi pi-fw pi-times'}
+              {label: 'Quit', routerLink: "/entrar", icon: 'pi pi-fw pi-times'}
           ]
       },
       {
@@ -88,7 +87,6 @@ export class MenuComponent implements OnInit {
           ]
       }
   ];
-}
-}
+  }
 
-
+}
